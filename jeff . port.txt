@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>jeffvision.portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.5.2/dist/cdn.min.js" defer></script>
+  <style>
+    body { background: #000; color: #fff; font-family: sans-serif; }
+    .thumb-card:hover img { transform: scale(1.05); }
+  </style>
+</head>
+<body class="bg-black">
+
+<!-- NAV -->
+<header class="sticky top-0 z-50 bg-black border-b border-gray-800">
+  <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+    <h1 class="text-xl font-bold text-pink-500">Premium Thumbnail Studio</h1>
+    <nav class="space-x-6 hidden md:block">
+      <a href="#work" class="hover:text-pink-400">Work</a>
+      <a href="#services" class="hover:text-pink-400">Services</a>
+      <a href="#pricing" class="hover:text-pink-400">Pricing</a>
+      <a href="#contact" class="hover:text-pink-400">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="text-center py-16">
+  <h2 class="text-4xl font-bold">Thumbnails That <span class="text-pink-400">Stop the Scroll</span></h2>
+  <p class="text-gray-300 mt-4 max-w-xl mx-auto">
+    Professional gaming, Money strategy and Podcastthumbnails designed to boost CTR.
+  </p>
+  <div class="mt-6">
+    <a href="#contact" class="px-6 py-3 bg-pink-500 text-white rounded-lg hover:bg-pink-600">Book a Project</a>
+    <a href="#work" class="ml-3 px-6 py-3 border border-pink-400 text-pink-400 rounded-lg hover:bg-pink-400 hover:text-black">View Work</a>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work" class="py-12 max-w-7xl mx-auto px-6">
+  <h3 class="text-2xl font-bold mb-6">Featured Work</h3>
+  <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+    <div class="thumb-card relative overflow-hidden rounded-lg">
+      <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e" class="w-full h-56 object-cover transition-transform duration-300" />
+      <div class="absolute bottom-2 left-2 text-white text-sm">Pro FPS Montage</div>
+    </div>
+    <div class="thumb-card relative overflow-hidden rounded-lg">
+      <img src="https://images.unsplash.com/photo-1640340434866-bca0bcbf8f47" class="w-full h-56 object-cover transition-transform duration-300" />
+      <div class="absolute bottom-2 left-2 text-white text-sm">Crypto Gains 2025</div>
+    </div>
+    <div class="thumb-card relative overflow-hidden rounded-lg">
+      <img src="https://images.unsplash.com/photo-1529101091764-c3526daf38fe" class="w-full h-56 object-cover transition-transform duration-300" />
+      <div class="absolute bottom-2 left-2 text-white text-sm">War History Deep Dive</div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="py-12 max-w-7xl mx-auto px-6">
+  <h3 class="text-2xl font-bold mb-6">Services</h3>
+  <div class="grid gap-6 md:grid-cols-3">
+    <div class="bg-gray-900 p-6 rounded-lg border border-gray-800">
+      <h4 class="text-xl font-semibold text-pink-400">Gaming Thumbnails</h4>
+      <p class="mt-2 text-gray-300">Dynamic, eye-catching thumbnails for gaming videos and streams.</p>
+    </div>
+    <div class="bg-gray-900 p-6 rounded-lg border border-gray-800">
+      <h4 class="text-xl font-semibold text-pink-400">Money Strategy</h4>
+      <p class="mt-2 text-gray-300">MONEY Strategy and business thumbnails with trust-building colors and designs.</p>
+    </div>
+    <div class="bg-gray-900 p-6 rounded-lg border border-gray-800">
+      <h4 class="text-xl font-semibold text-pink-400">Documentary</h4>
+      <p class="mt-2 text-gray-300">Cinematic, story-driven thumbnails that intrigue viewers.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="py-12 max-w-7xl mx-auto px-6">
+  <h3 class="text-2xl font-bold mb-6">Pricing</h3>
+  <div class="grid gap-6 md:grid-cols-3">
+    <div class="bg-gray-900 p-6 rounded-lg border border-gray-800">
+      <h4 class="text-xl font-semibold">Starter</h4>
+      <p class="text-3xl font-bold mt-2">$11 <span class="text-sm text-gray-400">/thumb</span></p>
+      <ul class="mt-4 text-gray-300 text-sm space-y-1">
+        <li>• 1 custom thumbnail</li>
+        <li>• 1 revision</li>
+      </ul>
+    </div>
+    <div class="bg-gray-900 p-6 rounded-lg border border-gray-800">
+      <h4 class="text-xl font-semibold">Pro</h4>
+      <p class="text-3xl font-bold mt-2">$50 <span class="text-sm text-gray-400">/5-pack</span></p>
+      <ul class="mt-4 text-gray-300 text-sm space-y-1">
+        <li>• 5 thumbnails bundle</li>
+        <li>• 3 revisions</li>
+      </ul>
+    </div>
+    <div class="bg-gray-900 p-6 rounded-lg border border-gray-800">
+      <h4 class="text-xl font-semibold">Pro+</h4>
+      <p class="text-3xl font-bold mt-2">$110 <span class="text-sm text-gray-400">/10-pack</span></p>
+      <ul class="mt-4 text-gray-300 text-sm space-y-1">
+        <li>• 10 thumbnails bundle</li>
+        <li>• PSD source files</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-12 max-w-7xl mx-auto px-6 text-center">
+  <h3 class="text-2xl font-bold mb-4">Let's Work</h3>
+  <p class="text-gray-300 mb-6">Email me: <a href="mailto:hjeffvision.visuals.com>.com" class="text-pink-400">jeffvision.visuals.com>.com</a></p>
+  <a href="https://youtube.com" target="_blank" class="text-pink-400 mx-2">YouTube</a>
+  <a href="https://instagram.com" target="_blank" class="text-pink-400 mx-2">Instagram</a>
+</section>
+
+<!-- FOOTER -->
+<footer class="border-t border-gray-800 text-center py-6 text-gray-500 text-sm">
+  © 2025 Jeffvision.portfolio. All Rights Reserved.
+</footer>
+
+</body>
+</html>
